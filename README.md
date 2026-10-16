@@ -23,7 +23,7 @@ Progress is tracked in the pinned **Annotation progress** issue.
 5. Upload to your folder: **Add file → Upload files**, drag in, commit.
 
 
-## Changing a rule
+## Making a change
 
 Add a dated entry at the top of `DECISIONS.md` with what changed, why,
 and whether already-annotated rows need re-checking. Note it in the
@@ -33,4 +33,6 @@ commit message too.
 
 ## Vocabulary
 
---TO DETERMINE--
+There is a folder for each field we are trying to standardize vocabulary for. Each folder contains `raw.csv` and `standard.csv`. 
+- `raw.csv`: Combined list of every value we annotate for that field, the number of times it was recorded, and who recorded it.
+- `standard.csv`: Mapping of raw values to agreed-upon standardized values. 
