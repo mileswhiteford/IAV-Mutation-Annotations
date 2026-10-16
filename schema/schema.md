@@ -25,7 +25,7 @@ The donor strain(s) introduced into the tested viral backbone.
 - `A/Egypt/N02039/2009(HA)`
 - `A/Vietnam/1203/2004(HA), A/Vietnam/1203/2004(NA)`
 
-## Subtype
+## subtype
 
 The influenza subtype of the experimentally tested virus.
 
