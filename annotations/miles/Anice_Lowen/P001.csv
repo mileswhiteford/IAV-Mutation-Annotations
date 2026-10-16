@@ -1,0 +1,5 @@
+paper_id,pmid,pmcid,backbone,recombinant,subtype,protein,mutation,numbering,phenotype,cell_type,animal_model,binding_assay,temperature
+P001,17922570,PMC2000968,A/Vietnam/1204/2004,,H5N1,PB2,PB2:E627K,,enhanced replication,,BALB/c nasal turbinates,,
+P001,17922570,PMC2000968,A/Vietnam/1203/2004,,H5N1,PB2,PB2:E627K,,reduced replication,,mice nasal turbinates,,
+P001,17922570,PMC2000968,A/Vietnam/1204/2004,,H5N1,PB2,PB2:E627K,,increased replication,,BALB/c nasal turbinates,,
+P001,17922570,PMC2000968,A/Vietnam/1204/2004,,H5N1,PB2,PB2:E627K,,increased replication,,ferrets,,
