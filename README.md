@@ -10,7 +10,7 @@ Shared protocol, schema, and standardized vocabulary for annotation. Annotations
 | `DECISIONS.md` | Dated log of every change to the protocol, schema, or vocabulary. Newest first. |
 | `vocab/` | Folder for each field we are standardizing, containing combined vocab from annotations and standardized vocab mapping |
 | `annotations/<name>/` | Each annotator's CSVs |
-| `scripts/` | Helpers — nothing you need to run |
+| `scripts/` | Helper scripts |
 
 Progress is tracked in the pinned **Annotation progress** issue.
 
