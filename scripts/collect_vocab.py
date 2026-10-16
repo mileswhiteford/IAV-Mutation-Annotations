@@ -73,7 +73,7 @@ def collect():
 
 
 def read_mapped(field: str) -> set:
-    """Lowercased raw_values already present in this field's map.csv."""
+    """Lowercased raw_values already present in this field's standard.csv."""
     map_path = VOCAB / field / "standard.csv"
     if not map_path.is_file():
         return set()
@@ -98,7 +98,7 @@ def write_field(field: str, entries: dict) -> list:
                         ";".join(sorted(e["annotators"])),
                         min(e["dates"]) if e["dates"] else ""])
 
-    map_path = folder / "map.csv"
+    map_path = folder / "standard.csv"
     if not map_path.is_file():
         with open(map_path, "w", newline="", encoding="utf-8") as f:
             csv.writer(f).writerow(MAP_HEADER)
@@ -115,7 +115,7 @@ def main():
         unmapped = write_field(field, found[field])
         total_unmapped += len(unmapped)
         print(f"{field}: {len(found[field])} unique value(s), "
-              f"{len(unmapped)} not yet in map.csv")
+              f"{len(unmapped)} not yet in standard.csv")
         for value in unmapped:
             print(f"    - {value}")
 
