@@ -142,3 +142,10 @@ The experimental temperature at which the mutation–phenotype relationship was 
 **Examples:** 
 - `33`
 - `37`
+
+## date
+
+When the annotation was completed, written in month/day/year format. Useful for tracking changes to the annotation protocol and vocabulary.
+
+**Example:**
+- `10/16/2026`
