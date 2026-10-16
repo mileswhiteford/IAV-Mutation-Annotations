@@ -1,2 +1,36 @@
 # IAV-Mutation-Annotations
-Repository to track and collaborate work on IAV mutation annotations, vocabulary standardization, and process decision making. 
+
+Shared protocol, schema, and standardized vocabulary for annotation. Annotations live in separate folders per annotator.
+
+| File / folder | What it is |
+|---|---|
+| `protocol.md` | Current annotation rules |
+| `schema/schema.csv` | Schema template |
+| `schema/schema.md` | Feild definitions |
+| `DECISIONS.md` | Dated log of every change to the protocol, schema, or vocabulary. Newest first. |
+| `vocab/` | Standardized vocabulary, one file per controlled field |
+| `annotations/<name>/` | Each annotator's CSVs |
+| `scripts/` | Helpers — nothing you need to run |
+
+Progress is tracked in the pinned **Annotation progress** issue.
+
+## Workflow
+
+1. Annotate in your own sheet, recording the date in `date_annotated`.
+2. Flag any rows that need review.
+3. Name file as corresponding paper ID (e.g. P001)
+4. Download as CSV (**File → Download → Comma-separated values**).
+5. Upload to your folder: **Add file → Upload files**, drag in, commit.
+
+
+## Changing a rule
+
+Add a dated entry at the top of `DECISIONS.md` with what changed, why,
+and whether already-annotated rows need re-checking. Note it in the
+commit message too.
+
+`protocol.md` always holds the current rules. Since every row has a date, the rules a row followed are the entries dated before it. Always update the date in `protocol.md` after any changes are made. 
+
+## Vocabulary
+
+--TO DETERMINE--
