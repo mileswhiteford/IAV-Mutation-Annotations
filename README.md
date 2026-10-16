@@ -8,7 +8,7 @@ Shared protocol, schema, and standardized vocabulary for annotation. Annotations
 | `schema/schema.csv` | Schema template |
 | `schema/schema.md` | Feild definitions |
 | `DECISIONS.md` | Dated log of every change to the protocol, schema, or vocabulary. Newest first. |
-| `vocab/` | Standardized vocabulary, one file per controlled field |
+| `vocab/` | Folder for each field we are standardizing, containing combined vocab from annotations and standardized vocab mapping |
 | `annotations/<name>/` | Each annotator's CSVs |
 | `scripts/` | Helpers — nothing you need to run |
 
