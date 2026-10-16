@@ -1,6 +1,10 @@
 
 # Schema Definitions
 
+## paper_id
+
+Our ID for each paper. Makes it easier to keep track and collaborate. Check `papers.csv` for paper id.
+
 ## backbone
 
 The viral strain or genetic backbone in which the mutation was experimentally tested.
