@@ -3,7 +3,7 @@
 
 ## author
 
-The CIEER Researcher (Usually first or last author) who will be reviewing their paper. 
+The CEIRR Researcher (Usually first or last author) who will be reviewing their paper. 
 
 ## paper_id
 
