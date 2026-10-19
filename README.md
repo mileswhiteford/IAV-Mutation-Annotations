@@ -18,9 +18,8 @@ Progress is tracked in the pinned **Annotation progress** issue.
 
 1. Annotate in your own sheet, recording the date in `date_annotated`.
 2. Flag any rows that need review.
-3. Name file as corresponding paper ID (e.g. P001)
-4. Download as CSV (**File → Download → Comma-separated values**).
-5. Upload to your folder: **Add file → Upload files**, drag in, commit.
+3. Download as CSV (**File → Download → Comma-separated values**).
+4. Upload to your folder: **Add file → Upload files**, drag in, commit.
 
 
 ## Making a change
