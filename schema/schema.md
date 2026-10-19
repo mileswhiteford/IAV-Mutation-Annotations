@@ -1,6 +1,10 @@
 
 # Schema Definitions
 
+## Author
+
+The CIEER Researcher (Usually first or last author) who will be reviewing their paper. 
+
 ## paper_id
 
 Our ID for each paper. Makes it easier to keep track and collaborate. Check `papers.csv` for paper id.
