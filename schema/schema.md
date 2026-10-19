@@ -1,7 +1,7 @@
 
 # Schema Definitions
 
-## Author
+## author
 
 The CIEER Researcher (Usually first or last author) who will be reviewing their paper. 
 
