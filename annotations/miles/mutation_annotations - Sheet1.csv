@@ -1,0 +1,59 @@
+author,paper_id,pmid,pmcid,backbone,recombinant,subtype,protein,mutation,numbering,phenotype,cell_type,animal_model,binding_assay,temperature,date,notes
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,PB2,PB2:E627K,,improved growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,PB2,PB2:Q591R,,improved growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,NP:Q12R,,increased titers,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,NP:S50G,,increased titers,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,NP:E454K,,increased titers,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,"PB2, NP","PB2:E627K, NP:Q12R",,increased growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,"PB2, NP","PB2:E627K, NP:S50G",,increased growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,"PB2, NP","PB2:E627K, NP:E454K",,increased growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,"PB2, NP","PB2:Q591R, NP:Q12R",,increased growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,"PB2, NP","PB2:Q591R, NP:S50G",,increased growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,"PB2, NP","PB2:Q591R, NP:E454K",,increased growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,PB2,PB2:Q236H,,improved growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,PB2,"PB2:Q236H, PB2:E627K",,improved growth,HTBE,,,,10/19/2026,was increased only at the 48-h time point compared to E627K alone
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,"PB2, NP","PB2:Q236H, PB2:E627K, NP:N309K",,increased kinetics of growth,HTBE,,,,10/19/2026,
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,NP:Q12R,,increased reporter activity,293T,,,,10/19/2026,"transient transfection, luciferase assay"
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,NP:N309K,,decreased reporter activity,293T,,,,10/19/2026,"transient transfection, luciferase assay"
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,PB2:Q236H,,increased reporter activity,293T,,,,10/19/2026,"transient transfection, luciferase assay"
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,PB2:Q591K,,increased reporter activity,293T,,,,10/19/2026,"transient transfection, luciferase assay"
+Anice Lowen,P001,25210184,PMC4249088,A/duck/Alberta/35/1976,,H1H1,NP,PB2:E627K,,increased reporter activity,293T,,,,10/19/2026,"transient transfection, luciferase assay"
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,PB2:K627E,,reduced plaque size,MDCK,,,37,10/20/2026,A/Panama/2007/99 mentioned in intro only (Pan99). Should we include intro?
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,PB2:K627E,,reduced plaque size,MDCK,,,33,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,"PB2:K627E, PB2:D701N",,reduced plaque size,MDCK,,,33,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,PB2:K627E,,reduced plaque size,MDCK,,,33,10/20/2026,A/Viet Nam/1203/04 mentioned in intro only (VN1203). Should we include intro?
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,PB2:K627E,,reduced plaque size,MDCK,,,37,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,"PB2:K627E, PB2:D701N",,reduced plaque size,MDCK,,,33,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,"PB2:K627E, PB2:D701N",,reduced plaque size,MDCK,,,37,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,PB2:K627E,,attenuated growth,MDCK,,,33,10/20/2026,"different experiment, but also MDCK cells. How to differentiate?"
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,PB2:K627E,,attenuated growth,MDCK,,,37,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,"PB2:K627E, PB2:D701N",,attenuated growth,MDCK,,,33,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,"PB2:K627E, PB2:D701N",,attenuated growth,MDCK,,,37,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,PB2:K627E,,reduced titers,MDCK,,,33,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,PB2:K627E,,reduced titers,,Female Hartley Guinea Pigs Upper Respiratory Tract,,,10/20/2026,Do we include days/hours pi?
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,"PB2:K627E, PB2:D701N",,reduced titers,,Female Hartley Guinea Pigs Upper Respiratory Tract,,,10/20/2026,Another column for tissue/where in vivo?
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,PB2:K627E,,reduced aerosol transmission,,Female Hartley Guinea Pigs,,,10/20/2026,"If PB2:K627E, PB2:D701N is more efficient than PB2:K627E alone, how should the phenotype be recorded?"
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,"PB2:K627E, PB2:D701N",,reduced aerosol transmission,,Female Hartley Guinea Pigs,,,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,PB2:K627E,,reduced contact transmission,,Female Hartley Guinea Pigs,,,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,"PB2:K627E, PB2:D701N",,increased contact transmission,,Female Hartley Guinea Pigs,,,10/20/2026,"Not sure if this is correct. Says ""slightly increased"""
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,"PB2:K627E, PB2:D701N",,reduced kinetics,,Female Hartley Guinea Pigs,,,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,"PB2:K627E, PB2:D701N",,increaed titers,,"Female Hartley Guinea Pigs, inoculated intranasally",,,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Panama/2007/99,,H3N2,PB2,PB2:K627E,,decreased infectivity,,Female Hartley Guinea Pigs,,,10/20/2026,
+Anice Lowen,P002,19119420,PMC2603332,A/Viet Nam/1203/04,,H5N1,PB2,PB2:K627E,,decreased infectivity,,Female Hartley Guinea Pigs,,,10/20/2026,
+Anice Lowen,P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,NA:E119V,,reduced plaque size,MDCK,,,,10/20/2026,
+Anice Lowen,P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,"NA:E119V, NA:I222V",,reduced plaque size,MDCK,,,,10/20/2026,
+Anice Lowen,P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,NA:E119V,,reduced aerosol transmission,,Female Hartley Guinea Pigs,,,10/20/2026,
+Anice Lowen,P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,"NA:E119V, NA:I222V",,reduced aerosol transmission,,Female Hartley Guinea Pigs,,,10/20/2026,
+Anice Lowen,P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,NA:E119V,,efficient contact transmission,,Female Hartley Guinea Pigs,,,10/20/2026,"Wildtype was not tested, so what do we compare to?"
+Anice Lowen,P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,"NA:E119V, NA:I222V",,efficient contact transmission,,Female Hartley Guinea Pigs,,,10/20/2026,
+Troy Sutton,P004,28701401,PMC5599738,,,,,,,,,,,,10/20/2026,Not sure about this article. Are any mutations directly tested?
+Troy Sutton,P005,24696487,PMC4054360,,,,,,,,,,,,10/20/2026,Not sure about this article. Are any mutations directly tested?
+Troy Sutton,P006,38750016,PMC11096306,A/mink/Spain/3691-8_22VIR10586-10/2022,,H5N1,PB2,PB2:A271T,,reduced polymerase activity,293T,,,33,10/20/2026,
+Troy Sutton,P006,38750016,PMC11096306,A/mink/Spain/3691-8_22VIR10586-10/2022,,H5N1,PB2,PB2:A271T,,reduced polymerase activity,293T,,,37,10/20/2026,
+Troy Sutton,P006,38750016,PMC11096306,A/mink/Spain/3691-8_22VIR10586-10/2022,,H5N1,PB2,PB2:A271T,,reduced airborne transmission,,ferret,,,10/20/2026,
+Daniel Perez,P007,20976194,PMC2954835,A/California/04/09,,H1N1,PA,PA:E298K,,increased polymerase activity,293T,,,,10/20/2026,
+Daniel Perez,P007,20976194,PMC2954835,A/California/04/09,,H1N1,NP,NP:D101G,,reduced polymerase activity,293T,,,,10/20/2026,
+Daniel Perez,P007,20976194,PMC2954835,A/California/04/09,,H1N1,"PA, NP","NP:D101G, PA:E298K",,increased polymerase activity,293T,,,,10/20/2026,
+Daniel Perez,P008,35966706,PMC9363787,,,,,,,,,,,,,This only has to do with chickens
+Daniel Perez,P009,34696349,PMC8540072,,,,,,,,,,,,,review
+Daniel Perez,P010,30567980,PMC6401463,,,,,,,,,,,,,
