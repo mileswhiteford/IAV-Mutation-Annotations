@@ -1,0 +1,9 @@
+paper_id,pmid,pmcid,backbone,recombinant,subtype,protein,mutation,numbering,phenotype,cell_type,animal_model,binding_assay,temperature,notes,date
+P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,NA:E119V,,Decreased aerosol transmission,,Guinea pig,,,,2026.10.22
+P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,"NA:E119V, NA:I222V",,No aerosol transmission,,Guinea pig,,,,2026.10.22
+P003,18684820,PMC2566271,A/Panama/2007/1999,,H3N2,NA,"NA:E119V, NA:I222V",,Increased ID50,,Guinea pig,,,,2026.10.22
+P002,19119420,PMC2603332,A/Panama/2007/1999,,H3N2,PB2,PB2:K627E,,Decreased replication,MDCK,,,33C,,2026.10.22
+P002,19119420,PMC2603332,A/Panama/2007/1999,,H3N2,PB2,PB2:K627E,,Decreased replication,MDCK,,,37C,,2026.10.22
+P002,19119420,PMC2603332,A/Panama/2007/1999,,H3N2,PB2,PB2:K627E,,Decreased replication,,Guinea pig,,,,2026.10.22
+P002,19119420,PMC2603332,A/Panama/2007/1999,,H3N2,PB2,PB2:K627E,,Decreased aerosol transmission,,Guinea pig,,,,2026.10.22
+P002,19119420,PMC2603332,A/Vietnam/1203/2004,,H5N1,PB2,PB2:K627E,,Decreased contact transmission,,Guinea pig,,,,2026.10.22
