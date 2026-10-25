@@ -15,7 +15,7 @@ As we annotate, we will almost certainly change parts of this protocol and the s
 To find out which rules a row followed, look at `DECISIONS.md` for entries dated before that row.
 
 # Annotation Protocol:
-Last Updated: 10/15/2026
+Last Updated: 10/22/2026
 
 ## Source Usage
 
