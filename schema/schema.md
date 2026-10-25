@@ -1,6 +1,8 @@
 
 # Schema Definitions
 
+Last Updated: 10/22/2026
+
 ## author
 
 The CEIRR Researcher (Usually first or last author) who will be reviewing their paper. 
@@ -90,6 +92,7 @@ The experimentally observed effect of the mutation relevant to mammalian host ad
 - Record distinct phenotypes separately.
 - State the direction of the effect when reported.
 - Do not include general virulence-only outcomes such as mortality, morbidity, pathogenicity, or weight loss.
+- Mutation phenotype descriptions should be in comparison to the wildtype phenotype.
 - Do not include any information that can be reasonably assumed from another field (e.g. Instead of saying "Enhanced replication in mice" just report "Enhanced replication." "Mice" is reported in the animal_model field. 
 
 **Examples:**
@@ -118,11 +121,13 @@ The cell line, primary cell type, tissue culture, or ex vivo cellular system use
 The animal species, strain, or lineage used in an in vivo experiment.
 
 - Use only for in vivo experiments.
-- Include the specific animal strain or lineage when reported.
+- Use animal models most simple name (BALB/c mice --> Mice)
+- Do not report specific tissue. Only report animal model of experiment.
 
 **Examples:** 
-- `BALB/c mice`
-- `Ferrets`
+- `Mice`
+- `Ferret`
+- `Guinea Pig`
 
 ## binding_assay
 
