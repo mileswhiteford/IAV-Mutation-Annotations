@@ -24,12 +24,13 @@ Last Updated: 10/15/2026
 
 ## Inclusion Criteria
 
-- Include all experimentally tested amino-acid mutations or mutation combinations with observed effects relevant to mammalian host adaptation.
+- Include all experimentally tested amino-acid mutations or mutation combinations relevant to mammalian host adaptation.
 - Include every relevant (mammalian host adaptive) mutation–phenotype relationship, not just the most prominent findings.
 - Treat each unique combination of mutation(s), phenotype, and experimental system as a separate observation.
 - If a mutation produces multiple relevant phenotypes, record each phenotype separately.
 - Keep mutations tested together as a combination unless their individual effects were separately tested and reported.
 - Treat experiments conducted in different experimental contexts as a separate observations. For example, different viral backbones, strains, subtypes, assays, cell types, animal models, receptor-binding systems, or temperatures.
+- Mutation phenotypes should be in comparison to the wildtype phenotype.
 
 ## Exclusion Criteria
 
@@ -37,7 +38,6 @@ Exclude the following:
 
 - Background claims or findings cited from previous studies.
 - Predicted, inferred, or computationally proposed mutation effects without experimental validation.
-- Mutations for which no phenotypic effect was observed.
 - General virulence-only outcomes, including pathogenicity, mortality, morbidity, or weight loss.
 - Mutations related to antibody, antiviral drug, or vaccine resistance.
 - Mutations with unspecified amino-acid identities or positions.
