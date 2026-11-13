@@ -10,6 +10,7 @@ Run from the repo root:  python scripts/collect_vocab.py
 import csv
 import sys
 from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
 
 CONTROLLED_FIELDS = [
@@ -19,8 +20,8 @@ CONTROLLED_FIELDS = [
 
 SKIP_VALUES = {"", "na", "n/a", " "}
 
-# Column holding the annotation date, used for "first_seen". Blank if absent.
-DATE_COLUMN = "date_annotated"
+# Canonical column first; retain compatibility with older annotation sheets.
+DATE_COLUMNS = ("date", "date_annotated")
 
 ROOT = Path(__file__).resolve().parent.parent
 ANNOTATIONS = ROOT / "annotations"
@@ -32,6 +33,18 @@ MAP_HEADER = ["raw_value", "standard_value", "date", "note"]
 def normalize(value: str) -> str:
     """Strip and collapse internal whitespace."""
     return " ".join(value.split())
+
+
+def annotation_date(row: dict) -> str:
+    """ISO dates sort chronologically even when input sheets use different formats."""
+    for column in DATE_COLUMNS:
+        value = normalize(row.get(column) or "")
+        for pattern in ("%m/%d/%Y", "%Y.%m.%d", "%Y-%m-%d"):
+            try:
+                return datetime.strptime(value, pattern).date().isoformat()
+            except ValueError:
+                continue
+    return ""
 
 
 def collect():
@@ -55,7 +68,8 @@ def collect():
             if reader.fieldnames is None:
                 continue
             for row in reader:
-                date = normalize(row.get(DATE_COLUMN) or "")
+                date = annotation_date(row)
+                row_annotator = normalize(row.get("annotator_name") or "") or annotator
                 for field in CONTROLLED_FIELDS:
                     if field not in reader.fieldnames:
                         continue
@@ -66,7 +80,7 @@ def collect():
                     if not entry["value"]:
                         entry["value"] = value 
                     entry["count"] += 1
-                    entry["annotators"].add(annotator)
+                    entry["annotators"].add(row_annotator)
                     if date:
                         entry["dates"].append(date)
     return found

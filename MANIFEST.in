@@ -1,0 +1,7 @@
+include protocol.md decisions.md papers.csv
+recursive-include schema *.md *.csv
+recursive-include vocab *.csv
+recursive-include annotations *.csv
+recursive-include src/iav_annotator/static *
+recursive-include frontend/src *.ts *.tsx *.css
+include frontend/package.json frontend/package-lock.json frontend/index.html frontend/tsconfig.json frontend/vite.config.ts
