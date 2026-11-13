@@ -1,25 +1,25 @@
 raw_value,count,annotators,first_seen
-reduced plaque size,9,miles,
-increased growth,6,miles,
-attenuated growth,4,miles,
-improved growth,4,miles,
-increased reporter activity,4,miles,
-reduced aerosol transmission,4,miles,
-Decreased replication,3,brian,
-increased titers,3,miles,
-reduced polymerase activity,3,miles,
-reduced titers,3,miles,
-Decreased aerosol transmission,2,brian,
-decreased infectivity,2,miles,
-efficient contact transmission,2,miles,
-increased polymerase activity,2,miles,
-Decreased contact transmission,1,brian,
-decreased reporter activity,1,miles,
-increaed titers,1,miles,
-increased contact transmission,1,miles,
-Increased ID50,1,brian,
-increased kinetics of growth,1,miles,
-No aerosol transmission,1,brian,
-reduced airborne transmission,1,miles,
-reduced contact transmission,1,miles,
-reduced kinetics,1,miles,
+reduced plaque size,9,miles,2026-10-20
+increased growth,6,miles,2026-10-19
+attenuated growth,4,miles,2026-10-20
+improved growth,4,miles,2026-10-19
+increased reporter activity,4,miles,2026-10-19
+reduced aerosol transmission,4,miles,2026-10-20
+Decreased replication,3,brian,2026-10-22
+increased titers,3,miles,2026-10-19
+reduced polymerase activity,3,miles,2026-10-20
+reduced titers,3,miles,2026-10-20
+Decreased aerosol transmission,2,brian,2026-10-22
+decreased infectivity,2,miles,2026-10-20
+efficient contact transmission,2,miles,2026-10-20
+increased polymerase activity,2,miles,2026-10-20
+Decreased contact transmission,1,brian,2026-10-22
+decreased reporter activity,1,miles,2026-10-19
+increaed titers,1,miles,2026-10-20
+increased contact transmission,1,miles,2026-10-20
+Increased ID50,1,brian,2026-10-22
+increased kinetics of growth,1,miles,2026-10-19
+No aerosol transmission,1,brian,2026-10-22
+reduced airborne transmission,1,miles,2026-10-20
+reduced contact transmission,1,miles,2026-10-20
+reduced kinetics,1,miles,2026-10-20
