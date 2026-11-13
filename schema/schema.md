@@ -1,7 +1,28 @@
 
 # Schema Definitions
 
-Last Updated: 10/22/2026
+Last Updated: 11/13/2026
+
+The CSV column order is defined by `schema_template.csv`. In the local app,
+`paper_id` is optional for papers outside the registry. `author` identifies the
+paper's researcher; the contributor is recorded separately in `annotator_*`
+export columns. These metadata additions do not change scientific inclusion rules.
+
+## pmid
+
+The PubMed identifier of the paper, recorded as digits. Any PMID may be opened;
+an existing assignment or registry entry is not required.
+
+## pmcid
+
+The PubMed Central identifier when known, including the `PMC` prefix. This may
+remain blank when full text is unavailable.
+
+## notes
+
+Free text for qualifications, experimental details not represented by another
+field, or questions requiring review. The app also stores paper-level screening
+notes and linked Results/Methods evidence separately.
 
 ## author
 

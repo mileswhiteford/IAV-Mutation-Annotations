@@ -2,10 +2,18 @@
 
 Shared protocol, schema, and standardized vocabulary for annotation. Annotations live in separate folders per annotator.
 
+## Browser annotation app
+
+The local app retrieves articles by PMID, links observations to evidence, autosaves
+drafts, and exports contributor-attributed CSVs. Install the supplied Python wheel
+and run `iav-annotate`. No assignments or account service are required.
+
+See [installation, annotation, import/export, backup, and developer instructions](docs/local-application.md).
+
 | File / folder | What it is |
 |---|---|
 | `protocol.md` | Current annotation rules |
-| `schema/schema.csv` | Schema template |
+| `schema/schema_template.csv` | Schema template |
 | `schema/schema.md` | Schema feild definitions |
 | `decisions.md` | Dated log of every change to the protocol, schema, or vocabulary. Newest first. |
 | `vocab/` | Folder for each field we are standardizing, containing combined vocab from annotations and standardized vocab mapping |

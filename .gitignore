@@ -1,0 +1,17 @@
+/automated_analysis/
+node_modules/
+src/iav_annotator/static/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.sqlite3*
+frontend/openapi.json
+frontend/playwright-report/
+frontend/test-results/
+frontend/.npm-cache/
+.artifacts/
